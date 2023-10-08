@@ -11,7 +11,7 @@ for i in range(5):
     month = input("Enter a month: ")
     day = input("Enter the day: ")
 
-    birthday = str(months.index(month.lower())) + "." + day
+    birthday = str(months.index(month.lower())) + "." + day.rjust(2, "0")
     birthdays.append(float(birthday))
     birthdays.sort()
 
