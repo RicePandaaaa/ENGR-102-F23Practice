@@ -35,7 +35,7 @@ dates.sort()
 for date in dates:
     date_str = str(date).split(".")
     month_number = int(date_str[0])
-    day_number = date_str[1]
+    day_number = date_str[1].ljust(2, "0")
 
     # Get the month
     month = months[month_number - 1]
