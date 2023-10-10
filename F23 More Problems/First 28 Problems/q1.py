@@ -1,7 +1,7 @@
 x = (5 % 2) and (5 < 2 + 4)
 
 """
-Should be false because:
+Should be True because:
 x = 1 and 5 < 6
 x = True and True
 """
